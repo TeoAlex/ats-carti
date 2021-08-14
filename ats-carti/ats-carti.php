@@ -286,7 +286,7 @@ function ats_make_shortcode($attr)
             $options_autor .= '<option value="' . json_decode($author) . '">' . json_decode($author) . '</option>';
         }
         $result .= '
-				<div class="col-lg-4 col-6 my-3 px-1">
+				<div class="col-lg-4 col-6 my-3 pr-1">
 					<div class="input-group mb-3">
 					  <select class="custom-select" id="gen_select">
 						<option value="toate" selected="">Toate Genurile</option>
@@ -294,7 +294,7 @@ function ats_make_shortcode($attr)
 					  </select>
 					</div>
 				</div>
-				<div class="col-lg-4 col-6 my-3 px-1">
+				<div class="col-lg-4 col-6 my-3 pl-1">
 					<div class="input-group mb-3">
 					  <select class="custom-select" id="author_select">
 						<option value="toate" selected="">Toti Autorii</option>
