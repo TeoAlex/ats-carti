@@ -362,7 +362,7 @@ function ats_make_shortcode($attr)
     $result .= '
 				<div id="no_books" class="ats-book-container-empty item col-xs-12 col-lg-12" ' . $empty . '>
 					<div class="thumbnail card">
-						<div class="caption card-body">
+						<div class="card-body">
 							<p class="group inner list-group-item-text ats-book-empty">
 							    Nu s-au gasit carti.
 							</p>
